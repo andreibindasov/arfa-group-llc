@@ -358,7 +358,7 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    color: black;
+    color: #c29525;
     /* text-shadow: 0 .1rem .2rem rgba(0, 0, 0, .6); */
     width: 0;
     font-size: 3rem;
@@ -547,19 +547,19 @@ html{
 .cards-wrapper{
     display: flex;
     justify-content: center;
-    margin-top: 9rem;
+    margin-top: 1rem;
     width: 100%;
     height: 100%;
     
 }
 .cards-wrapper:nth-child(2){
-    margin-top: 18rem;
+    margin-top: 33rem;
     
 }
 
 .card{
-    width: 36rem;
-    height: 45rem;
+    width: 30rem;
+    height: 36rem;
     box-shadow: 0 1rem 3rem rgba(0,0,0, .6);
     border-radius: .6rem;
     position: relative;
@@ -567,7 +567,7 @@ html{
     overflow: hidden;
 }
 .card:hover .card-img-wrapper img{
-    opacity: .3;
+    opacity: .1;
 
 }
 
@@ -612,7 +612,7 @@ html{
 
 .card-info-h h2{
     font-family: "Baloo Da 2", serif;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     line-height: 2.4rem;
     font-weight: 300;
     color: #eee;
@@ -622,7 +622,7 @@ html{
     display: inline-block;
     /* background-color: #4b4b4bc9; */
     background: linear-gradient(to right, #262626, #666);
-    width: 88%;
+    width: 91%;
     height: 18%;
     top: 17rem;
     left: 0;
@@ -643,7 +643,7 @@ html{
     left: 45rem;
 }
 .card:hover .card-info-h{
-    top: 6rem;
+    top: .6rem;
 }
 
 .card-info p{
@@ -651,14 +651,13 @@ html{
     font-family: "Baloo Da 2", serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #eee;
     text-align: justify;
-    text-indent: 3rem;
+    text-indent: 1.5rem;
     margin-bottom: 1.5rem;
-    width: 90%;
-    line-height: 1.5rem;
-
+    width: 100%;
+    line-height: 1.8rem;
     
 }
 .card:hover .card-info{
