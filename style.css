@@ -863,6 +863,7 @@ html{
 }
 
 .copyright{
+    display: none;
     font-family: 'Dosis', serif;
     font-size: 1.8rem;
     letter-spacing: .27rem;
